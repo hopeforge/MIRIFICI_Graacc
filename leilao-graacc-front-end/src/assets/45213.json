@@ -1,0 +1,11 @@
+{
+    "idProduct": 45213,
+    "name": "Cadeira Personalizada",
+    "minPrice": 2500,
+    "lastPrice": 3700,
+    "dataFinal": "22/12/2019",
+    "horaFinal": "22:40",
+    "description": "Cadeira construida com madeira, desenhada com conceito de curvas.",
+    "img": "cadeira-design.jpg",
+    "incremento": 500
+}

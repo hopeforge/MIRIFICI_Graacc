@@ -1,0 +1,42 @@
+[
+    {
+        "idProduct": "10012",
+        "name": "Relógio Pêndulo",
+        "minPrice": 1000,
+        "lastPrice": 1590,
+        "dataFinal": "5/12/2019",
+        "horaFinal": "18:15",
+        "description": "Relógio Pêndulo com visor de vidro e com alarme com melodia musical.",
+        "img": "relogio-pendulo.jpg"
+    },
+    {
+        "idProduct": 10517,
+        "name": "Quadro Decorativo Leão Esboço",
+        "minPrice": 347,
+        "lastPrice": 590,
+        "dataFinal": "5/12/2019",
+        "horaFinal": "18:15",
+        "description": "Quadro com moudura em madeira maciça e acrílico de 2mm sobre a arte.",
+        "img": "quadro-puma.jpg"
+    },
+    {
+        "idProduct": 45213,
+        "name": "Cadeira Personalizada",
+        "minPrice": 2500,
+        "lastPrice": 3700,
+        "dataFinal": "22/12/2019",
+        "horaFinal": "22:40",
+        "description": "Cadeira construida com madeira, desenhada com conceito de curvas.",
+        "img": "cadeira-design.jpg"
+    },
+    {
+        "idProduct": 42591,
+        "name": "Octavia 650 – Nova Moto Customizada",
+        "minPrice": 6000,
+        "lastPrice": 8000,
+        "dataFinal": "27/12/2019",
+        "horaFinal": "19:25",
+        "description": "Modelo foi criado a partir de uma BMW 650 XChalange e promove o encontro de um belo design com uma ótima engenharia.",
+        "img": "moto.jpg"
+    }
+]

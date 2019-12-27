@@ -1,0 +1,24 @@
+<div class="row row-cols-1 row-cols-md-4">
+    <div *ngFor="let leilao of leiloes" class="col mb-2">
+        <div class="card bg-light">
+            <!-- Aqui é passado o caminho e o id do leilão para que o componente possa buscar o leilão selecionado-->
+            <a [routerLink]="['/leilao', leilao.idProduct]"><img src="..\assets\img\{{ leilao.img }}" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <a [routerLink]="['/leilao', leilao.idProduct]">
+                    <h5 class="text-info">{{ leilao.name}}</h5>
+                </a>
+                <p class="card-text">{{ leilao.description }}</p>
+                <hr>
+                <img src="..\assets\img\martelo.png" alt="">
+                <span><strong>Ultimo lance:</strong> R$ {{ leilao.lastPrice }}</span>
+                <br>
+                <img src="..\assets\img\tempo.png" alt="">
+                <span><strong>Termina em:</strong> {{ leilao.dataFinal }} <br> as {{ leilao.horaFinal }}</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>

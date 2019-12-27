@@ -1,0 +1,62 @@
+<h1>Faça seu Cadastro</h1>
+<div class="container" style="width: 20rem;">
+
+    <label for="nickName">*NickName:</label><br>
+    <div class="input-group mb-3">
+        <input type="text" [(ngModel)]='nickName' class="form-control" name="NickName" placeholder="nickName">
+    </div>
+
+    <label for="nome">*Nome: </label><br>
+    <div class="input-group mb-3">
+        <input type="text" [(ngModel)]='nome' class="form-control" name="nome" placeholder="Nome">
+    </div>
+
+    <label for="ultimoNome">*Ultimo Nome:</label><br>
+    <div class="input-group mb-3">
+        <input type="text" [(ngModel)]='ultimoNome' class="form-control" name="ultimoNome" placeholder="UltimoNome">
+    </div>
+
+    <label for="email">*E-Mail:</label><br>
+    <div class="input-group mb-3">
+        <input type="text" [(ngModel)]='email' class="form-control" placeholder="E-Mail" name="email">
+    </div>
+
+    <label for="password">*Password:</label><br>
+    <div class="input-group mb-3">
+        <input type="password" [(ngModel)]='password' class="form-control" placeholder="Password" name="password">
+    </div>
+
+    <label for="telefone">*Telefone:</label><br>
+    <div class="input-group mb-3">
+        <input type="tel" [(ngModel)]='telefone' class="form-control" placeholder="Telefone" name="telefone">
+    </div>
+
+    <label for="cpf">*CPF:</label><br>
+    <div class="input-group mb-3">
+        <input type="number" [(ngModel)]='cpf' class="form-control" placeholder="CPF" name="cpf">
+    </div>
+
+    <label for="dataNascimento">*Data de Nascimento:</label><br>
+    <div class="input-group mb-3">
+        <input type="date" [(ngModel)]='dataNascimento' class="form-control" placeholder="Data de Nascimento"
+            name="dataNascimento">
+    </div>
+
+    <hr>
+
+    <div *ngIf="temCamposVazios" class="alert alert-danger" role="alert">
+        Preencha todos os campos!
+    </div>
+
+    <div *ngIf="cadastroComSucesso" class="alert alert-success" role="alert">
+        Cadastrado com Sucesso!
+    </div>
+
+    <button type="button" class="btn btn-outline-info" (click)="cadastrar()">Cadastrar</button>
+    <button type="button" class="btn btn-outline-danger ml-5" (click)="reset()">Reset</button>
+    <br>
+
+    <br><br>
+
+
+</div>

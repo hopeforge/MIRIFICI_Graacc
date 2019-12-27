@@ -1,0 +1,11 @@
+{
+    "idProduct": "10012",
+    "name": "Relógio Pêndulo",
+    "minPrice": 1000,
+    "lastPrice": 1590,
+    "dataFinal": "5/12/2019",
+    "horaFinal": "18:15",
+    "description": "Relógio Pêndulo com visor de vidro e com alarme com melodia musical.",
+    "img": "relogio-pendulo.jpg",
+    "incremento": 100
+}

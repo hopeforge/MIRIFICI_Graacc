@@ -1,0 +1,10 @@
+[
+    {
+        "idCli": 1,
+        "cpf": "12345678919",
+        "nome": "nome",
+        "sobrenome": "sobrenome",
+        "dataNascto": "2019-12-07T00:00:00.000+0000",
+        "apelido": "apelido"
+    }
+]
